@@ -59,7 +59,47 @@ hr {
     background: url(timelapse.jpg) no-repeat;
     background-size: cover;
 }
+                    
+.nav {
+    margin: 200px 20px;
+    background-color:transparent;
+    overflow: hidden;
+    width: 760px;
+    text-align: center;
+}
 
+.nav li {
+    width: 120px; border-left: 5px solif #666;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: Orator STD, Courier, Helvetica, sans-serif;
+
+    padding: 10px 50px 10px 15px;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.nav li:hover {
+    background: white;
+    border-left: 5px solid #000;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+                    /* before
 .nav {
 	list-style: none;
 	margin: 0px;
@@ -80,6 +120,8 @@ a:active {
 a:visited {
 	color: white;
 }
+     
+                     before   */
 
 footer {
     font-family: Orator STD, Courier, Helvetica, sans-serif;
@@ -88,6 +130,7 @@ footer {
     margin-bottom: 0px;
     margin-top: 250px;
 }
+
 /* Start http://www.cursors-4u.com */ 
 body, a:hover {
 	cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur239.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur239.png), progress !important;
