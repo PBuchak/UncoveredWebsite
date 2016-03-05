@@ -21,8 +21,7 @@
 
   <h1> Stills </h1>
   	<p> A Picture can speak louder than words... </p>
-    		<div id="Places">
-    			<h2> Places </h2>
+    		<div id="Stills">
       			<script type="text/javascript">
             var image1 = new Image()
             image1.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Brooklyn.jpg"
@@ -30,15 +29,22 @@
             image2.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Pylipets.jpg"
             var image3 = new Image()
             image3.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Manhattan.jpg"
+            var image4 = new Image()
+            image4.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Paris1.JPG"
+            var image5 = new Image()
+            image5.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Holland.jpg"
             </script>
 
             <p><img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Brooklyn.jpg" width="800" height="520" name="slide" /></p>
+            <p><img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar1.jpg" width="520" height="800" name="slide" /></p>
+            <p><img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar3.jpg" width="520" height="800" name="slide" /></p>
+            <p><img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar2.jpg" width="520" height="800" name="slide" /></p>
             <script type="text/javascript">
             var step=1;
             function slideit()
             {
               document.images.slide.src = eval("image"+step+".src");
-              if(step<3)
+              if(step<7)
                   step++;
               else
                   step=1;
@@ -47,7 +53,8 @@
             slideit();
             </script>
     	  </div>
-      
+
+<!-- saving just in case for future   
     		<div id="People">
           <h2> People </h2>
             <img id="first" src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar1.jpg" style="width:350px; height:440px; float:left; margin-left:190px; margin-bottom:30px;">
@@ -59,7 +66,7 @@
           <h2> Events </h2>
             <img id="third" src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Paris1.JPG" style="width: 500px; height: 350px; float:left; margin-left:220px; margin-bottom: 50px;">
             <img id="third" src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Holland.jpg" style="width: 500px; height: 350px; float:left; margin-right:100px; margin-bottom: 50px;">
-<!--
+
         <div id="Events">
     			<h2> Events </h2>
     			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Paris1.JPG" alt="Paris" style="width:350px; height:240px;">
@@ -67,7 +74,8 @@
     			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Graduation.jpg" alt="Graduation" style="width:350px; height:240px;">
     			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Maydan.jpg" alt="Maydan" style="width:240px; height:270px;">
     		</div>
-    -->
+-->
+
 <footer>
     &copy 2016 Polina Buchak
   </footer> 
