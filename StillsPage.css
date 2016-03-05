@@ -4,44 +4,97 @@ body {
 	background-color: #D0E9FF;
 }
 
-nav {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
+.nav {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:transparent;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+    z-index: 20px;
 }
-.nav li{
-	display: inline;
-	color: black;
+
+.nav li {
+    width: 120px; border-left: 5px solif #666;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: Orator STD, Courier, Helvetica, sans-serif;
+
+    padding: 10px 50px 10px 15px;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
-.nav a{
-	display: inline-block;
-	padding: 20px;
-	font-family: Orator STD, Courier, Helvetica, sans-serif;
+
+.nav li:hover {
+    background: white;
+    border-left: 5px solid #000;
 }
+
 a:active {
-	color: white;
+    color: white;
+    text-decoration: none;
 }
 a:visited {
-	color: white;
+    color: white;
+}
+a:hover {
+    color: black;
 }
 
 h1 {
-	color: black;
+	color: white;
 	font-family: Orator STD, Courier, Helvetica, sans-serif;
 	font-size: ;
 	text-align: center;
 	}
 
 p {
-	color: black;
+	color: white;
 	font-family: Orator STD, Courier, Helvetica, sans-serif;
 	text-align: center;
 	font-size: ;
 }
+
 h2 {
-	color: black;
+	color: white;
 	font-family: Orator STD, Courier, Helvetica, sans-serif;
 	font-size: ;
 	text-align: center;
+	margin-top: 50px;
 }
+
+footer {
+    font-family: Orator STD, Courier, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 250px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 50;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(timelapse.jpg) no-repeat;
+    background-size: cover;
+}
+/* Start http://www.cursors-4u.com */ 
+body, a:hover {
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur239.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur239.png), progress !important;
+} 
+/* End http://www.cursors-4u.com */
