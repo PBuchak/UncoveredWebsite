@@ -1,0 +1,47 @@
+<link> href="Stills.html" </link>
+
+body {
+	background-color: #D0E9FF;
+}
+
+nav {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.nav li{
+	display: inline;
+	color: black;
+}
+.nav a{
+	display: inline-block;
+	padding: 20px;
+	font-family: Orator STD, Courier, Helvetica, sans-serif;
+}
+a:active {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+h1 {
+	color: black;
+	font-family: Orator STD, Courier, Helvetica, sans-serif;
+	font-size: ;
+	text-align: center;
+	}
+
+p {
+	color: black;
+	font-family: Orator STD, Courier, Helvetica, sans-serif;
+	text-align: center;
+	font-size: ;
+}
+h2 {
+	color: black;
+	font-family: Orator STD, Courier, Helvetica, sans-serif;
+	font-size: ;
+	text-align: center;
+}

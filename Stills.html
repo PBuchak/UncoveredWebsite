@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel ="stylesheet" href ="StillsPage.css"> 
+  <title>Stills</title>
+</head>
+
+<body>
+  <ul class="nav">
+          <li><a href="#stills"> Stills </a></li>
+            <li><a href="#chapters"> Chapters </a></li>
+            <li><a href="#pieces"> Pieces </a></li>
+            <li><a href="#reachme"> Reach me </a></li>
+            </ul>
+          </ul>
+  <h1> Stills </h1>
+  	<p> A Picture can speak louder than words... </p>
+    		<div id="Places">
+    			<h2> Places </h2>
+    			<script type="text/javascript">
+
+var image1 = new Image()
+image1.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Brooklyn.jpg"
+var image2 = new Image()
+image2.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Pylipets.jpg"
+var image3 = new Image()
+image3.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Manhattan.jpg"
+</script>
+
+<p><img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Brooklyn.jpg" width="500" height="300" name="slide" /></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<3)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",2500);
+        }
+        slideit();
+</script>
+    		</div>
+        <!--
+    		<div id="People">
+          <script type="text/javascript">
+
+          var image3 = new Image()
+          image3.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar1.jpg"
+          var image4 = new Image()
+          image4.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar2.jpg"
+          var image5 = new Image()
+          image5.src = "file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/ClaudiaLi.jpg"
+          var image6 = new Image()
+          image6.src = "ile:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/EvBessar3.jpg"
+          </script>
+<p><img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Brooklyn.jpg" width="500" height="300" name="slide" /></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<4)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",2500);
+        }
+        slideit();
+</script>
+    		
+        </div>
+    		<div id="Events">
+    			<h2> Events </h2>
+    			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Paris.jpg" alt="Paris" style="width:350px; height:240px;">
+    			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Holland.jpg" alt="Holland" style="width:350px; height:240px;">
+    			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Graduation.jpg" alt="Graduation" style="width:350px; height:240px;">
+    			<img src="file:///Users/PolinaBucak/Desktop/Intro%20to%20Web/img/Maydan.jpg" alt="Maydan" style="width:240px; height:270px;">
+    		</div>
+    -->
+<footer>
+    &copy 2016 Polina Buchak
+  </footer> 
+</body>
+</html>
