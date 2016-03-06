@@ -1,0 +1,90 @@
+<link> href="ReachMe.html" </link>
+
+body {
+    background-color: #D0E9FF;
+}
+
+.nav {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#E89B73;
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+    z-index: 20px;
+}
+
+.nav li {
+    width: 120px; 
+    border-left: 5px solif #666;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: Orator STD, Courier, Helvetica, sans-serif;
+
+    padding: 10px 50px 10px 15px;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.nav li:hover {
+    background: white;
+    border-left: 5px solid #000;
+}
+
+.nav a:active {
+    color: black;
+    text-decoration: none;
+}
+.nav a:visited {
+    color: black;
+}
+.nav a:hover {
+    color: black;
+}
+
+h1 {
+    color: black;
+    font-family: "Orator STD", Courier, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+p {
+    color: black;
+    font-family: "Orator STD", Courier, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-family: "Orator STD", Courier, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 50%;
+    min-height: 50;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(timelapse.jpg) no-repeat;
+    background-size: cover;
+}
+/* Start http://www.cursors-4u.com */ 
+body, a:hover {
+    cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur239.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur239.png), progress !important;
+} 
+/* End http://www.cursors-4u.com */
