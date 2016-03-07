@@ -1,0 +1,138 @@
+<link> href="index.html" </link>
+
+body {
+    padding: 0px;
+   	margin: 0px;
+    width: auto;
+    height: auto;
+}
+@media (min-width: 500px) {
+    .body {
+        padding: 20px;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 800px) {
+    .body {
+        padding: 40px;
+        font-size: 2em;
+    }
+}
+p {
+	font-family: Orator STD, Courier, Helvetica, sans-serif;
+	color: white;
+	text-align: center;
+}
+li {
+	font-family: Orator STD, Courier, Helvetica, sans-serif;
+	color: black;
+	position: center;
+}
+
+img {
+	display: block;
+	margin-top: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+
+.Logo {
+    position: center;
+}
+
+hr {
+	color: white;
+}
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(timelapse.jpg) no-repeat;
+    background-size: cover;
+}
+                    
+.nav {
+    margin: 200px 20px;
+    background-color:transparent;
+    overflow: hidden;
+    width: 760px;
+    text-align: center;
+}
+
+.nav li {
+    width: 120px; border-left: 5px solif #666;
+    float: left;
+    cursor: pointer;
+    list-style-type: none;
+    font-family: Orator STD, Courier, Helvetica, sans-serif;
+
+    padding: 10px 50px 10px 15px;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.nav li:hover {
+    background: white;
+    border-left: 5px solid #000;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+                    /* before
+.nav {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.nav li{
+	display: inline;
+	color: black;
+}
+.nav a{
+	display: inline-block;
+	padding: 20px;
+}
+a:active {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+     
+                     before   */
+
+footer {
+    font-family: Orator STD, Courier, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 250px;
+}
+
+/* Start http://www.cursors-4u.com */ 
+body, a:hover {
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur239.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur239.png), progress !important;
+} 
+/* End http://www.cursors-4u.com */
